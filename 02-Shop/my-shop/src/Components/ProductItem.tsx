@@ -7,7 +7,7 @@ const ProductItem = () => {
         <p>55$</p>
       </div>
       <div className="px-5">
-        <p className="line-clamp-">
+        <p className="line-clamp-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
           nesciunt.
         </p>

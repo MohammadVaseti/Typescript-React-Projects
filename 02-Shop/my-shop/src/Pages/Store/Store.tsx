@@ -5,7 +5,9 @@ const Store = () => {
   return (
     <>
       <Container>
-        <h1 className="mt-5 ml-5">Newest Products</h1>
+        <h1 className="mt-5 ml-5 bg-slate-300 w-40 rounded flex justify-center align-middle">
+          Newest Products
+        </h1>
         <div className="grid grid-cols-4 gap-4 mt-4">
           <ProductItem />
           <ProductItem />
