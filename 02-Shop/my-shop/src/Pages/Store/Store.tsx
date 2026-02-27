@@ -1,8 +1,12 @@
 import { Link } from "react-router-dom";
 import Container from "../../Components/Container";
 import ProductItem from "../../Components/ProductItem";
+import { useEffect } from "react";
+import { getProducts } from "../../services/api";
 
 const Store = () => {
+  useEffect(getProducts(), []);
+
   return (
     <>
       <Container>
