@@ -1,7 +1,8 @@
 import type { ComponentProps } from "react";
 
+type TVariant = "primary" | "secondary" | "danger" | "warning" | "success";
 type TButton = ComponentProps<"button"> & {
-  variant: "primary" | "secondary" | "danger" | "warning" | "success";
+  variant: TVariant;
 };
 
 const Button = ({ children, ...rest }: TButton) => {
