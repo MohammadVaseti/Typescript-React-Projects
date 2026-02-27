@@ -27,6 +27,7 @@ const Product = () => {
             <img className="rounded" src="" alt="" />1
             <div>
               <Button
+                className="cursor-pointer border rounded p-2 mt-4 bg-slate-300"
                 onClick={() => {
                   return alert("hi");
                 }}
