@@ -26,14 +26,12 @@ const Product = () => {
           <div className=" col-span-2 p-4 bg-sky-200">
             <img className="rounded" src="" alt="" />1
             <div>
-              <Button
-                className="cursor-pointer border rounded p-2 mt-4 bg-slate-300"
-                onClick={() => {
-                  return alert("hi");
-                }}
-              >
+              <Button variant="warning" style={{ padding: "15px" }}>
                 Add to Card
               </Button>
+              <Button variant="danger">Add to Card</Button>
+              <Button variant="success">Add to Card</Button>
+              <Button variant="primary">Add to Card</Button>
             </div>
           </div>
         </div>
