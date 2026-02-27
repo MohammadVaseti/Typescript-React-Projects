@@ -26,12 +26,9 @@ const Product = () => {
           <div className=" col-span-2 p-4 bg-sky-200">
             <img className="rounded" src="" alt="" />1
             <div>
-              <Button variant="warning" style={{ padding: "15px" }}>
+              <Button className="mt-2 w-full py-4!" variant="primary">
                 Add to Card
               </Button>
-              <Button variant="danger">Add to Card</Button>
-              <Button variant="success">Add to Card</Button>
-              <Button variant="primary">Add to Card</Button>
             </div>
           </div>
         </div>

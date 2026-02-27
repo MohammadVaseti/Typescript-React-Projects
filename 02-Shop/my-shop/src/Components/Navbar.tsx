@@ -18,7 +18,9 @@ const Navbar = () => {
               </ul>
             </div>
             <div>
-              <button className="ml-5">Buy</button>
+              <Link to="/card">
+                <button className="ml-5 cursor-pointer">Buy</button>
+              </Link>
             </div>
           </div>
         </Container>
